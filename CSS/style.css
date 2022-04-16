@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+* {
+  font-family: 'Poppins';
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+.navDiv {
+  height: 60px;
+  display: flex;
+}
+
+.logoNavegador{
+width: 10%;
+display: flex;
+align-items: center;
+}
+
+.formularioNavegador{
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.formularioBotones{
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 45px;
+  margin-right: 1rem;
+}
+
+.logoIcon{
+  max-height: 20px;
+}
+
+.lupaIcon{
+  max-height: 14px;
+  padding-left: 15px;
+}
+
+#searchNav {
+  color: #9E9E9E;
+  background-color: #F0F0F0;
+  border: 2px;
+  padding: 10px 0px 10px 5px;
+  width: 90.8%;
+  font-size: 14px;
+}
+
+.formNav {
+  width: 100%;
+  margin: 0px 0px 0px 0px;
+  padding: 0%;
+  background-color: #F0F0F0;
+}
+
+form{
+  display: flex;
+  align-items: center;
+}
+
+div{
+  display: flex;
+}
+
+form input {
+  color: rgba(0,0,0,.05);
+}
+
+.buttonNav {
+  background-color: #fb3e44;
+  color: white;
+  border: none;
+  padding: 15px 5px 15px 5px;
+  width: 14.6%;
+  max-width: 110px;
+  font-size: 14px;
+  min-width: 110px;
+}
+
+.loginNav {
+  background-color: #FFFFFF;
+  color: black;
+  border: 1px solid #9E9E9E; 
+  text-decoration: none;
+  padding: 6px 16px 6px 16px;
+  font-size: 14px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+#section1 {
+  background-color: #F7F1F1;
+  min-height: 90vh;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+}
+
+h1{
+  text-align: center;
+  font-size: 5vw;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  font-size: calc(4px + 1vw);
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.redButton {
+  background-color: #fb3e44;
+  color: white;
+  border: 1px solid #fb3e44;
+  text-decoration: none;
+  padding: 6px 16px 6px 16px;
+  font-size: 18px;
+  padding: 2.5% 10% ;
+  margin-right: 5%;
+  margin-left: 5%;
+  -webkit-box-shadow: 10px 10px 0px 0px #F0BEC6; 
+  box-shadow: 10px 10px 0px 0px #F0BEC6;
+}
+
+.div2Buttons{
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 50px;
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.transparentButton {
+  background-color: transparent;
+  border: 1px none transparent;
+  text-decoration: none;
+  padding: 6px 16px 6px 16px;
+  font-size: 18px;
+  padding: 2.5% 10% ;
+  margin-right: 5%;
+  margin-left: 5%;
+
+}
